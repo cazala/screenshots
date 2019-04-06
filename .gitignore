@@ -1,0 +1,6 @@
+node_modules
+.env
+dist
+userData
+screenshots
+.DS_Store
