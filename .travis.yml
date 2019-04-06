@@ -3,6 +3,7 @@ script: 'npm run build && npm start'
 node_js:
   - '10'
 cache: npm
+
 env:
   - PAGE=0
   - PAGE=1
