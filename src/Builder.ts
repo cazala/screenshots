@@ -103,11 +103,16 @@ export class Builder {
 
     console.log(`waiting for assets to load`)
     let isLoading = true
+    let loops = 0
     while (isLoading) {
       await page.waitFor(100)
       isLoading = await page.evaluate(
         () => !!(window as any).editor.getLoadingEntity()
       )
+      loops++
+      if (loops % 300 === 0) {
+        console.log(`DON'T KILL ME PLEASE 🙏🏻`)
+      }
     }
 
     console.log(`set camera zoom`)
