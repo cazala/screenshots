@@ -110,7 +110,7 @@ export class Builder {
         () => !!(window as any).editor.getLoadingEntity()
       )
       loops++
-      if (loops % 300 === 0) {
+      if (loops % 50 === 0) {
         console.log(`DON'T KILL ME PLEASE 🙏🏻`)
       }
     }

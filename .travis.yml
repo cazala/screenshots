@@ -4,42 +4,15 @@ node_js:
   - '10'
 cache: npm
 env:
-  - PAGE=518
-  - PAGE=533
-  - PAGE=556
-  - PAGE=574
-  - PAGE=595
   - PAGE=600
   - PAGE=603
-  - PAGE=624
-  - PAGE=627
-  - PAGE=628
-  - PAGE=639
-  - PAGE=647
-  - PAGE=693
-  - PAGE=694
-  - PAGE=834
-  - PAGE=835
-  - PAGE=836
+  - PAGE=708
+  - PAGE=711
+  - PAGE=752
+  - PAGE=778
   - PAGE=842
-  - PAGE=855
-  - PAGE=859
-  - PAGE=889
   - PAGE=900
-  - PAGE=942
-  - PAGE=962
   - PAGE=966
   - PAGE=969
   - PAGE=1015
-  - PAGE=1025
-  - PAGE=1066
-  - PAGE=1070
-  - PAGE=1109
   - PAGE=1113
-  - PAGE=1124
-  - PAGE=1150
-  - PAGE=1153
-  - PAGE=1159
-  - PAGE=1182
-  - PAGE=1183
-  - PAGE=1248
