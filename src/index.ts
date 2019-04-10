@@ -72,7 +72,10 @@ async function main() {
       const hasScreenshots = await screenshotsBucket.checkFile(
         `${project.id}/preview.gif`
       )
-      if (hasScreenshots) {
+      if (
+        hasScreenshots &&
+        env.get('SKIP_ALREADY_SCREENSHOTTED', 'true') === 'true'
+      ) {
         console.log(
           'skipping this project bacause it has already been processed'
         )
