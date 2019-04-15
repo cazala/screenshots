@@ -61,9 +61,10 @@ async function main() {
   const uploadPromise = upload()
 
   const totalTime = Date.now()
-  let iteration = 1
+  let iteration = 0
 
   for (const id of ids) {
+    iteration++
     try {
       const iterationTime = Date.now()
       console.log(`\nproject id: ${id} (#${iteration})`)
@@ -93,7 +94,6 @@ async function main() {
       console.error(`\n[${id}] ${e.message}\n`)
       continue
     }
-    iteration++
   }
   const minutes = (Date.now() - totalTime) / 60000
   console.log(
