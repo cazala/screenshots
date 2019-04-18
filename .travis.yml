@@ -4,17 +4,13 @@ node_js:
   - '10'
 cache: npm
 env:
-  - PAGE=83
-  - PAGE=84
-  - PAGE=85
-  - PAGE=86
-  - PAGE=87
-  - PAGE=88
-  - PAGE=89
-  - PAGE=90
-  - PAGE=91
-  - PAGE=92
-  - PAGE=93
-  - PAGE=94
   - PAGE=95
   - PAGE=96
+  - PAGE=97
+  - PAGE=98
+  - PAGE=99
+  - PAGE=100
+  - PAGE=101
+  - PAGE=102
+  - PAGE=103
+  - PAGE=104
